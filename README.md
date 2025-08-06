@@ -44,7 +44,7 @@ This application demonstrates enterprise-level web scraping combined with modern
 ### **1️⃣ Environment Setup**
 ```cmd
 REM Navigate to project directory
-cd c:\Users\Victus\Desktop\fastapi-template
+cd c:\Users\Victus\Desktop\books-scraper-crud-api
 
 REM Create virtual environment (recommended)
 python -m venv venv

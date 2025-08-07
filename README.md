@@ -109,7 +109,7 @@ $env:MONGODB_URL="mongodb+srv://username:password@cluster.mongodb.net/books_db"
 ** Fallback Storage**
 *Note: If MongoDB is unavailable, the application automatically falls back to in-memory storage with file persistence.*
 
-### **🔧 Windows-Specific Setup Verification**
+### ** Windows-Specific Setup Verification**
 
 **1. Verify MongoDB Installation**
 ```cmd
@@ -287,7 +287,7 @@ netstat -an | findstr :5000
 
 ---
 
-## 📡 **API Reference**
+##  **API Reference**
 
 ### ** Scraping Operations**
 ```http

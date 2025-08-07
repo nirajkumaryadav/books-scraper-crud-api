@@ -106,7 +106,7 @@ REM Or in PowerShell
 $env:MONGODB_URL="mongodb+srv://username:password@cluster.mongodb.net/books_db"
 ```
 
-**🔄 Fallback Storage**
+** Fallback Storage**
 *Note: If MongoDB is unavailable, the application automatically falls back to in-memory storage with file persistence.*
 
 ### **🔧 Windows-Specific Setup Verification**
@@ -718,7 +718,7 @@ This scraper is specifically designed for [books.toscrape.com](https://books.tos
 
 ---
 
-## 🎯 **Project Goals Achieved**
+##  **Project Goals Achieved**
 
 ✅ **Advanced Web Scraping**: Comprehensive pagination handling and data extraction  
 ✅ **Production-Ready CRUD API**: Full REST interface with filtering and validation  
@@ -732,7 +732,7 @@ This scraper is specifically designed for [books.toscrape.com](https://books.tos
 
 ---
 
-**🚀 This implementation represents production-ready code suitable for enterprise applications, demonstrating advanced software engineering practices, scalable architecture, and comprehensive feature development optimized for Windows development environments.**
+** This implementation represents production-ready code suitable for enterprise applications, demonstrating advanced software engineering practices, scalable architecture, and comprehensive feature development optimized for Windows development environments.**
 
 ---
 

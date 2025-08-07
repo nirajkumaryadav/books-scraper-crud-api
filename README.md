@@ -1,4 +1,4 @@
-# 📚 Books Scraper CRUD API
+# Books Scraper CRUD API
 ### *Professional Web Scraping & Data Management Platform*
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
@@ -8,32 +8,32 @@
 
 > **A production-ready web scraping and CRUD application that extracts book data from [books.toscrape.com](https://books.toscrape.com/) and provides a comprehensive REST API for data management, analysis, and insights.**
 
-## 🎯 **Project Overview**
+## **Project Overview**
 
 This application demonstrates enterprise-level web scraping combined with modern API development. Built with **FastAPI** and **MongoDB**, it showcases advanced data extraction, processing, and management capabilities suitable for real-world applications.
 
-### ✨ **Key Highlights**
-- **🚀 Modern Architecture**: Async FastAPI with MongoDB for high performance
-- **🕷️ Intelligent Scraping**: Respectful, paginated extraction with error recovery
-- **📊 Rich Analytics**: Comprehensive statistics and data insights
-- **🛡️ Production Ready**: Robust error handling, validation, and fallback system
-- **📖 Auto Documentation**: Interactive Swagger/OpenAPI interface
+### **Key Highlights**
+- ** Modern Architecture**: Async FastAPI with MongoDB for high performance
+- ** Intelligent Scraping**: Respectful, paginated extraction with error recovery
+- ** Rich Analytics**: Comprehensive statistics and data insights
+- ** Production Ready**: Robust error handling, validation, and fallback system
+- ** Auto Documentation**: Interactive Swagger/OpenAPI interface
 
 ---
 
-## 🌟 **Features at a Glance**
+## **Features at a Glance**
 
 | Category | Features |
 |----------|----------|
-| **🕷️ Web Scraping** | • Automated pagination discovery<br>• Respectful rate limiting<br>• Error recovery & retry logic<br>• Real-time progress tracking |
-| **📊 CRUD Operations** | • Full REST API with filtering<br>• Advanced search capabilities<br>• Bulk operations support<br>• Data validation & sanitization |
-| **🗄️ Database** | • MongoDB with async operations<br>• Automatic indexing<br>• Connection pooling<br>• Graceful fallback to in-memory |
-| **📈 Analytics** | • Statistical analysis<br>• Price & rating insights<br>• Top books rankings<br>• Data visualization endpoints |
-| **🛡️ Reliability** | • Comprehensive error handling<br>• Input validation<br>• Health monitoring<br>• Fallback storage system |
+| ** Web Scraping** | • Automated pagination discovery<br>• Respectful rate limiting<br>• Error recovery & retry logic<br>• Real-time progress tracking |
+| ** CRUD Operations** | • Full REST API with filtering<br>• Advanced search capabilities<br>• Bulk operations support<br>• Data validation & sanitization |
+| ** Database** | • MongoDB with async operations<br>• Automatic indexing<br>• Connection pooling<br>• Graceful fallback to in-memory |
+| ** Analytics** | • Statistical analysis<br>• Price & rating insights<br>• Top books rankings<br>• Data visualization endpoints |
+| ** Reliability** | • Comprehensive error handling<br>• Input validation<br>• Health monitoring<br>• Fallback storage system |
 
 ---
 
-## 🚀 **Quick Start Guide**
+## **Quick Start Guide**
 
 ### **Prerequisites**
 - **Python 3.11+** 
@@ -165,35 +165,35 @@ REM Verify required packages
 pip show fastapi motor beautifulsoup4 requests
 ```
 
-### **📍 Data Storage Locations (Windows)**
+### ** Data Storage Locations (Windows)**
 
 After successful scraping, your data will be stored in these locations:
 
 ```
-📊 Data Storage Map:
-├── 🗄️ MongoDB Database (if available)
-│   ├── 📍 Location: C:\data\db\ (default)
-│   ├── 🏷️ Database: books_scraper_db
-│   ├── 📦 Collection: books
-│   └── 📈 Records: ~1,000 book entries
+ Data Storage Map:
+├── MongoDB Database (if available)
+│   ├──  Location: C:\data\db\ (default)
+│   ├──  Database: books_scraper_db
+│   ├──  Collection: books
+│   └──  Records: ~1,000 book entries
 │
-├── 📄 JSON File
-│   ├── 📍 Path: c:\Users\Victus\Desktop\fastapi-template\books_data.json
-│   ├── 📊 Size: ~500KB
-│   └── 🔍 Format: Structured JSON with metadata
+├── JSON File
+│   ├── Path: c:\Users\Victus\Desktop\fastapi-template\books_data.json
+│   ├── Size: ~500KB
+│   └── Format: Structured JSON with metadata
 │
-├── 📊 CSV File
-│   ├── 📍 Path: c:\Users\Victus\Desktop\fastapi-template\books_data.csv
-│   ├── 📊 Size: ~200KB
-│   └── 🔍 Format: Comma-separated values
+├── CSV File
+│   ├──  Path: c:\Users\Victus\Desktop\fastapi-template\books_data.csv
+│   ├──  Size: ~200KB
+│   └──  Format: Comma-separated values
 │
-└── 📋 Application Logs
-    ├── 📍 Location: Console output
-    ├── 🔍 Contains: Scraping progress, errors, statistics
-    └── 📊 Real-time: Visible during scraping process
+└── Application Logs
+    ├── Location: Console output
+    ├── Contains: Scraping progress, errors, statistics
+    └── Real-time: Visible during scraping process
 ```
 
-### **🔍 Verify Data Storage**
+### ** Verify Data Storage**
 
 ```cmd
 REM Check MongoDB data (newer versions)
@@ -215,7 +215,7 @@ more books_data.json
 type books_data.csv | more
 ```
 
-### **📊 Expected Results After Scraping**
+### **Expected Results After Scraping**
 
 After running `/scrape/start`, you should see:
 
@@ -255,14 +255,14 @@ netstat -an | findstr :5000
 ### **4️⃣ Explore the API**
 | Resource | URL | Description |
 |----------|-----|-------------|
-| 📖 **Interactive Docs** | http://localhost:5000/docs | Swagger UI interface |
-| 📚 **Alternative Docs** | http://localhost:5000/redoc | ReDoc interface |
-| 🏠 **API Root** | http://localhost:5000/ | Basic API information |
-| ❤️ **Health Check** | http://localhost:5000/admin/health | System status |
+|  **Interactive Docs** | http://localhost:5000/docs | Swagger UI interface |
+|  **Alternative Docs** | http://localhost:5000/redoc | ReDoc interface |
+|  **API Root** | http://localhost:5000/ | Basic API information |
+|  **Health Check** | http://localhost:5000/admin/health | System status |
 
 ---
 
-## 🛠️ **Technology Stack**
+##  **Technology Stack**
 
 ### **Core Framework**
 | Technology | Version | Purpose | Implementation |
@@ -289,39 +289,39 @@ netstat -an | findstr :5000
 
 ## 📡 **API Reference**
 
-### **🕷️ Scraping Operations**
+### ** Scraping Operations**
 ```http
-POST /scrape/start              # 🚀 Start comprehensive scraping
-GET  /scrape/analysis          # 📊 Get detailed scraping statistics
+POST /scrape/start              #  Start comprehensive scraping
+GET  /scrape/analysis          #  Get detailed scraping statistics
 ```
 
-### **📚 Book Management (CRUD)**
+### ** Book Management (CRUD)**
 ```http
-POST   /books/                 # ➕ Create new book entry
-GET    /books/                 # 📖 List books with advanced filtering
-GET    /books/{id}             # 🔍 Get specific book details
-PUT    /books/{id}             # ✏️ Update existing book
-DELETE /books/{id}             # 🗑️ Delete book entry
+POST   /books/                 #  Create new book entry
+GET    /books/                 #  List books with advanced filtering
+GET    /books/{id}             #  Get specific book details
+PUT    /books/{id}             #  Update existing book
+DELETE /books/{id}             #  Delete book entry
 ```
 
-### **📊 Analytics & Statistics**
+### ** Analytics & Statistics**
 ```http
-GET /books/stats/summary       # 📈 Comprehensive data analysis
-GET /books/stats/top-books     # 🏆 Top books by price/rating
+GET /books/stats/summary       #  Comprehensive data analysis
+GET /books/stats/top-books     #  Top books by price/rating
 ```
 
 ### **⚙️ Administration**
 ```http
-GET    /admin/health           # ❤️ System health check
-POST   /admin/cleanup-data     # 🧹 Clean incomplete data
-DELETE /admin/clear-all        # ⚠️ Clear all data (DANGER)
+GET    /admin/health           #  System health check
+POST   /admin/cleanup-data     #  Clean incomplete data
+DELETE /admin/clear-all        #  Clear all data (DANGER)
 ```
 
 ---
 
-## 💡 **Usage Examples**
+##  **Usage Examples**
 
-### **📊 Start Data Collection**
+### ** Start Data Collection**
 ```cmd
 REM Begin scraping process
 curl -X POST "http://localhost:5000/scrape/start"
@@ -341,7 +341,7 @@ Invoke-RestMethod -Uri "http://localhost:5000/scrape/start" -Method Post
 }
 ```
 
-### **🔍 Advanced Book Queries (Windows)**
+### ** Advanced Book Queries (Windows)**
 
 ```cmd
 REM Premium books (5-star, under £20)
@@ -369,7 +369,7 @@ Invoke-RestMethod -Uri "http://localhost:5000/books/" -Method Get -Body @{search
 Invoke-RestMethod -Uri "http://localhost:5000/books/" -Method Get -Body @{min_price=10; max_price=30; availability="In stock"}
 ```
 
-### **➕ Data Management (Windows)**
+### ** Data Management (Windows)**
 
 ```cmd
 REM Create new book entry
@@ -410,7 +410,7 @@ Invoke-RestMethod -Uri "http://localhost:5000/books/{book_id}" -Method Put -Body
 Invoke-RestMethod -Uri "http://localhost:5000/books/{book_id}" -Method Delete
 ```
 
-### **📈 Analytics Queries**
+### ** Analytics Queries**
 ```cmd
 REM Get comprehensive statistics
 curl "http://localhost:5000/books/stats/summary"
@@ -436,20 +436,20 @@ Invoke-RestMethod -Uri "http://localhost:5000/books/stats/top-books" -Body @{lim
 
 ---
 
-## 🏗️ **Architecture & Design**
+## **Architecture & Design**
 
-### **🔄 Scraping Workflow**
+### ** Scraping Workflow**
 ```
 Start Scraping → Discover Pages → Extract Book Data → Validate & Clean → Save to MongoDB → Generate Files → Create Analysis
 ```
 
-### **🛡️ Error Handling Strategy**
+### ** Error Handling Strategy**
 1. **Network Resilience**: Timeout handling, retry logic, graceful degradation
 2. **Data Validation**: Pydantic models with fallback values
 3. **Database Fallback**: In-memory storage when MongoDB unavailable
 4. **Parsing Safety**: Robust extraction with default values
 
-### **📊 Data Flow Architecture**
+### ** Data Flow Architecture**
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Web Scraper   │───▶│   Data Processor │───▶│   API Endpoints │
@@ -464,7 +464,7 @@ Start Scraping → Discover Pages → Extract Book Data → Validate & Clean →
 
 ---
 
-## 💻 **Windows PowerShell Commands**
+##  **Windows PowerShell Commands**
 
 For users preferring PowerShell over Command Prompt:
 
@@ -496,27 +496,27 @@ Stop-Process -Name python -Force
 
 ---
 
-## 📁 **Actual Project Structure**
+##  **Actual Project Structure**
 
 ```
 fastapi-template/
-├── 📄 main.py                     # 🚀 FastAPI application & routes
-├── 📄 models.py                   # 📊 Pydantic data models
-├── 📄 database.py                 # 🗄️ MongoDB connection & operations
-├── 📄 scraper.py                  # 🕷️ Web scraping & analysis engine
-├── 📄 requirements.txt            # Production dependencies
-├── 📄 cleanup_database.py         # 🧹 Database maintenance script
-├── 📄 README.md                   # 📖 This comprehensive documentation
-├── 📄 .gitignore                  # Git ignore rules
-├── 📄 books_data.json             # 📊 Scraped data (JSON format)
-└── 📄 books_data.csv              # 📊 Scraped data (CSV format)
+├──  main.py                     #  FastAPI application & routes
+├──  models.py                   #  Pydantic data models
+├──  database.py                 #  MongoDB connection & operations
+├──  scraper.py                  #  Web scraping & analysis engine
+├──  requirements.txt            # Production dependencies
+├──  cleanup_database.py         #  Database maintenance script
+├──  README.md                   #  This comprehensive documentation
+├──  .gitignore                  # Git ignore rules
+├──  books_data.json             #  Scraped data (JSON format)
+└──  books_data.csv              #  Scraped data (CSV format)
 ```
 
 ---
 
-## ⚙️ **Windows Environment Configuration**
+##  **Windows Environment Configuration**
 
-### **🔧 Environment Variables**
+### ** Environment Variables**
 
 **Optional `.env` file in project directory:**
 ```env
@@ -562,58 +562,58 @@ $env:LOG_LEVEL = "INFO"
 
 ---
 
-## 📊 **Sample Analysis Output**
+##  **Sample Analysis Output**
 
-### **🎯 Comprehensive Scraping Results**
+### ** Comprehensive Scraping Results**
 ```
 ╔══════════════════════════════════════════════════════════════╗
-║                📚 BOOKS SCRAPER ANALYSIS REPORT             ║
+║                 BOOKS SCRAPER ANALYSIS REPORT                ║
 ╠══════════════════════════════════════════════════════════════╣
-║  📊 EXTRACTION SUMMARY                                       ║
+║   EXTRACTION SUMMARY                                         ║
 ║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
-║  📚 Total Books Scraped: 1,000                              ║
-║  📄 Pages Processed: 50                                     ║
-║  ⏱️ Total Time: 2m 15s                                      ║
-║  📈 Success Rate: 99.8%                                     ║
+║   Total Books Scraped: 1,000                                 ║
+║   Pages Processed: 50                                        ║
+║   Total Time: 2m 15s                                         ║
+║   Success Rate: 99.8%                                        ║
 ║                                                              ║
-║  💰 PRICE ANALYSIS                                          ║
+║   PRICE ANALYSIS                                             ║
 ║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
-║  💵 Average Price: £35.67                                   ║
-║  📉 Minimum Price: £10.00                                   ║
-║  📈 Maximum Price: £59.99                                   ║
-║  📊 Median Price: £33.50                                    ║
+║   Average Price: £35.67                                      ║
+║   Minimum Price: £10.00                                      ║
+║   Maximum Price: £59.99                                      ║
+║   Median Price: £33.50                                       ║
 ║                                                              ║
-║  ⭐ RATING DISTRIBUTION                                      ║
+║  ⭐ RATING DISTRIBUTION                                     ║
 ║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
-║  ⭐⭐⭐⭐⭐ (5 stars): 198 books (19.8%)                        ║
-║  ⭐⭐⭐⭐ (4 stars): 235 books (23.5%)                          ║
-║  ⭐⭐⭐ (3 stars): 289 books (28.9%)                            ║
-║  ⭐⭐ (2 stars): 156 books (15.6%)                             ║
-║  ⭐ (1 star): 122 books (12.2%)                              ║
-║                                                              ║
-║  📦 AVAILABILITY STATUS                                      ║
-║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
-║  ✅ In Stock: 895 books (89.5%)                            ║
-║  ❌ Out of Stock: 105 books (10.5%)                        ║
+║  ⭐⭐⭐⭐⭐ (5 stars): 198 books (19.8%)                   ║
+║  ⭐⭐⭐⭐ (4 stars): 235 books (23.5%)                     ║
+║  ⭐⭐⭐ (3 stars): 289 books (28.9%)                       ║
+║  ⭐⭐ (2 stars): 156 books (15.6%)                          ║
+║  ⭐ (1 star): 122 books (12.2%)                             ║
+║                                                             ║
+║   AVAILABILITY STATUS                                       ║
+║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ║
+║   In Stock: 895 books (89.5%)                               ║
+║   Out of Stock: 105 books (10.5%)                            ║
 ╚══════════════════════════════════════════════════════════════╝
 
-🏆 TOP 10 MOST EXPENSIVE BOOKS:
-┌─────┬─────────────────────────────────────────────┬─────────┬────────┐
-│ Rank│ Title                                       │ Price   │ Rating │
-├─────┼─────────────────────────────────────────────┼─────────┼────────┤
+ TOP 10 MOST EXPENSIVE BOOKS:
+┌─────┬─────────────────────────────────────────────┬─────────┬───────   ─┐
+│ Rank│ Title                                       │ Price   │ Rating    │
+├─────┼─────────────────────────────────────────────┼─────────┼────────   ┤
 │  1  │ The Elegant Universe: Superstrings...       │ £58.83  │ ⭐⭐⭐   │
 │  2  │ It's Only the Himalayas                     │ £45.17  │ ⭐⭐     │
-│  3  │ Full Moon over Noah's Ark...                │ £49.43  │ ⭐⭐⭐⭐  │
+│  3  │ Full Moon over Noah's Ark...                │ £49.43  │ ⭐⭐⭐⭐ │
 │  4  │ See America: A Celebration of Our Parks     │ £48.87  │ ⭐⭐⭐   │
 │  5  │ Vagabonding: An Uncommon Guide...           │ £36.94  │ ⭐⭐     │
-└─────┴─────────────────────────────────────────────┴─────────┴────────┘
+└─────┴─────────────────────────────────────────────┴─────────┴────────    ┘
 ```
 
 ---
 
-## 🛠️ **Troubleshooting (Windows-Specific)**
+##  **Troubleshooting (Windows-Specific)**
 
-### **🚨 Windows-Specific Issues & Solutions**
+### ** Windows-Specific Issues & Solutions**
 
 | Issue | Symptoms | Solution |
 |-------|----------|----------|
@@ -660,7 +660,7 @@ dir "C:\Program Files\MongoDB"
 dir "C:\data\db"
 ```
 
-### **🔧 Debug Mode (Windows)**
+### ** Debug Mode (Windows)**
 ```cmd
 REM Enable detailed logging
 set LOG_LEVEL=DEBUG
@@ -672,7 +672,7 @@ REM OR with PowerShell
 powershell -Command "Invoke-RestMethod -Uri 'http://localhost:5000/admin/health'"
 ```
 
-### **📞 Support & Resources**
+### ** Support & Resources**
 - **Documentation**: Check `/docs` endpoint for interactive API docs
 - **Health Check**: Use `/admin/health` for system status
 - **Logs**: Check application logs for detailed error information
@@ -681,15 +681,15 @@ powershell -Command "Invoke-RestMethod -Uri 'http://localhost:5000/admin/health'
 
 ---
 
-## 🌟 **Performance Optimization**
+##  **Performance Optimization**
 
-### **⚡ Speed Improvements**
+### ** Speed Improvements**
 - **Async Operations**: All database operations are non-blocking
 - **Connection Pooling**: Efficient MongoDB connection management
 - **Indexing Strategy**: Optimized database queries
 - **Fallback System**: In-memory storage when MongoDB unavailable
 
-### **📊 Monitoring & Metrics**
+### ** Monitoring & Metrics**
 ```cmd
 REM Built-in performance monitoring
 curl "http://localhost:5000/admin/health"
@@ -702,18 +702,18 @@ Invoke-RestMethod -Uri "http://localhost:5000/books/stats/summary"
 
 ---
 
-## 📄 **License & Legal**
+##  **License & Legal**
 
 This project is developed for **educational and demonstration purposes** as part of a comprehensive programming assessment. The code showcases modern Python development practices, web scraping techniques, and API design patterns.
 
-### **⚖️ Usage Rights**
+### ** Usage Rights**
 - ✅ Educational use and learning
 - ✅ Portfolio demonstration
 - ✅ Code review and assessment
 - ❌ Commercial use without permission
 - ❌ Redistribution without attribution
 
-### **🌐 Target Website**
+### ** Target Website**
 This scraper is specifically designed for [books.toscrape.com](https://books.toscrape.com/), a website created for scraping practice and education.
 
 ---
